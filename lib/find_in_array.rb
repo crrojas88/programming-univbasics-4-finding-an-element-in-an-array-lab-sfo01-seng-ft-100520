@@ -1,15 +1,15 @@
 def find_element_index(array, value_to_find)
-  count = 0
+  i = 0
 
   
-  while count < array.length do
+  while i < array.length do
     
-    if array(count) == value_to_find
+    if array[i] == value_to_find
         
-        return count
+        return i
     end
     
-    count += 1
+    i += 1
   end
   
   
